@@ -46,6 +46,7 @@ Thumbs.db
 # Project specific
 outputs/figures/
 outputs/tables/
+data/verbnet/
 
 # Large model files (if we add embeddings later)
 *.pt

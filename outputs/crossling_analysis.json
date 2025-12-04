@@ -1,0 +1,12 @@
+{
+  "centroid_similarity": {
+    "max": 0.9942404627799988,
+    "mean": 0.9894806146621704
+  },
+  "joint_clustering": {
+    "total_clusters": 50,
+    "mixed_clusters": 0,
+    "english_only": 28,
+    "vedic_only": 22
+  }
+}

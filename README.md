@@ -21,11 +21,12 @@ Working with [Universal Dependencies](https://universaldependencies.org/introduc
 
 ## Pipeline
 1. **parse treebanks** → grab every verb and what arguments it takes (subject? object? oblique with "to"?)
-2. **build features** → each verb lemma becomes a vector based on its syntactic behavior across all instances
-3. **get embeddings** → also extract XLM-R contextual embeddings for the semantic side
-4. **cluster** → use various clustering algorithms (e.g. hierarchical, louvain, etc) and see what groups emerge
-5. **evaluate** → compare english clusters against VerbNet classes
-6. **compare cross-linguistically** → do similar clusters show up across english/telugu/vedic/sanskrit? (what I'm especially interested in)
+2. **build syntactic features** → each verb lemma becomes a vector based on its syntactic behavior (transitivity, argument patterns, oblique types, etc.)
+3. **get embeddings** → XLM-R contextual embeddings for semantic similarity
+4. **combine features** → joint = α·embeddings + (1-α)·syntactic
+5. **cluster** → hierarchical, louvain, etc. and see what groups emerge
+6. **evaluate** → compare english clusters against VerbNet classes
+7. **compare cross-linguistically** → do similar clusters show up across english/telugu/vedic/sanskrit?
 
 ## Running it
 
@@ -42,6 +43,12 @@ the scripts in `src/` can be run directly.
 ```
 data/raw/         - UD treebank files (conllu format)
 src/              - python modules
+  data_loader.py      - CoNLL-U parsing
+  verb_extractor.py   - verb + argument extraction
+  feature_engineer.py - syntactic frame features
+  embedding_extractor.py - XLM-R embeddings
+  clustering.py       - clustering algorithms
+  cluster_analyzer.py - cluster analysis utilities
 outputs/          - extracted features, cluster assignments, etc
 ```
 
@@ -50,7 +57,8 @@ outputs/          - extracted features, cluster assignments, etc
 - the telugu corpus is pretty small (~1400 sentences). might not get great clusters but worth trying
 - vedic verb morphology is... a lot. voice distinctions are really interesting though
 - need to handle sandhi somehow? or just trust the tokenization
-- look into whether XLM-R actually covers vedic or if it just pretends to
+- XLM-R probably treats vedic as sanskrit-ish... quality TBD
+- **key insight**: verb classes (Levin) are about argument structure, not just semantic similarity. "hit" and "break" are semantically related but behave syntactically differently (manner vs result verbs).
 
 ## References
 

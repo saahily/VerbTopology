@@ -24,5 +24,8 @@ torch>=2.0.0
 networkx>=3.0
 python-louvain>=0.16
 
+# VerbNet evaluation (Phase 6)
+nltk>=3.8.0
+
 # Optional: for t-SNE/UMAP visualizations
 # umap-learn>=0.5.0

@@ -155,11 +155,11 @@
     {
       "method": "louvain",
       "feature_type": "syntactic",
-      "n_clusters": 22,
-      "silhouette": 0.0953684076666832,
-      "calinski_harabasz": 83.43377685546875,
-      "davies_bouldin": 1.6234507127705862,
-      "modularity": 0.5983335971832275,
+      "n_clusters": 27,
+      "silhouette": 0.09630653262138367,
+      "calinski_harabasz": 74.26031494140625,
+      "davies_bouldin": 1.6687279293633892,
+      "modularity": 0.5883116722106934,
       "params": {
         "resolution": 0.5,
         "k_neighbors": 15
@@ -168,11 +168,11 @@
     {
       "method": "louvain",
       "feature_type": "syntactic",
-      "n_clusters": 11,
-      "silhouette": 0.09307171404361725,
-      "calinski_harabasz": 107.0510482788086,
-      "davies_bouldin": 1.782555448541784,
-      "modularity": 0.6426879167556763,
+      "n_clusters": 10,
+      "silhouette": 0.09829840809106827,
+      "calinski_harabasz": 115.52407836914062,
+      "davies_bouldin": 1.8000250367442976,
+      "modularity": 0.6411961913108826,
       "params": {
         "resolution": 1.0,
         "k_neighbors": 15
@@ -182,10 +182,10 @@
       "method": "louvain",
       "feature_type": "syntactic",
       "n_clusters": 15,
-      "silhouette": 0.07968012988567352,
-      "calinski_harabasz": 87.3588638305664,
-      "davies_bouldin": 1.7919882131270262,
-      "modularity": 0.6169118881225586,
+      "silhouette": 0.10363457351922989,
+      "calinski_harabasz": 102.36393737792969,
+      "davies_bouldin": 1.6566945696714792,
+      "modularity": 0.6265352368354797,
       "params": {
         "resolution": 1.5,
         "k_neighbors": 15
@@ -195,10 +195,10 @@
       "method": "louvain",
       "feature_type": "syntactic",
       "n_clusters": 18,
-      "silhouette": 0.12377799302339554,
-      "calinski_harabasz": 96.08036804199219,
-      "davies_bouldin": 1.6956653843144687,
-      "modularity": 0.6208120584487915,
+      "silhouette": 0.10436452925205231,
+      "calinski_harabasz": 90.31367492675781,
+      "davies_bouldin": 1.7430843513779342,
+      "modularity": 0.6165845394134521,
       "params": {
         "resolution": 2.0,
         "k_neighbors": 15
@@ -508,9 +508,9 @@
       "method": "hierarchical_ward",
       "feature_type": "joint",
       "n_clusters": 10,
-      "silhouette": -0.0006581199704669416,
-      "calinski_harabasz": 13.591780662536621,
-      "davies_bouldin": 4.6595311623423905,
+      "silhouette": 0.15602624416351318,
+      "calinski_harabasz": 120.5744857788086,
+      "davies_bouldin": 1.6728878955600446,
       "modularity": null,
       "params": {
         "linkage": "ward",
@@ -521,9 +521,9 @@
       "method": "hierarchical_ward",
       "feature_type": "joint",
       "n_clusters": 20,
-      "silhouette": -0.0028480857145041227,
-      "calinski_harabasz": 9.367975234985352,
-      "davies_bouldin": 4.106321190023893,
+      "silhouette": 0.09723663330078125,
+      "calinski_harabasz": 85.56136322021484,
+      "davies_bouldin": 1.773838187542489,
       "modularity": null,
       "params": {
         "linkage": "ward",
@@ -534,9 +534,9 @@
       "method": "hierarchical_ward",
       "feature_type": "joint",
       "n_clusters": 30,
-      "silhouette": 0.00043945410288870335,
-      "calinski_harabasz": 7.537255764007568,
-      "davies_bouldin": 3.842791472709754,
+      "silhouette": 0.09962586313486099,
+      "calinski_harabasz": 69.71382141113281,
+      "davies_bouldin": 1.8016373405557629,
       "modularity": null,
       "params": {
         "linkage": "ward",
@@ -547,9 +547,9 @@
       "method": "hierarchical_ward",
       "feature_type": "joint",
       "n_clusters": 50,
-      "silhouette": 0.003622376127168536,
-      "calinski_harabasz": 5.841838359832764,
-      "davies_bouldin": 3.2873946285791997,
+      "silhouette": 0.10711412876844406,
+      "calinski_harabasz": 53.48350524902344,
+      "davies_bouldin": 1.6753672120445768,
       "modularity": null,
       "params": {
         "linkage": "ward",
@@ -560,9 +560,9 @@
       "method": "hierarchical_average",
       "feature_type": "joint",
       "n_clusters": 10,
-      "silhouette": 0.13830360770225525,
-      "calinski_harabasz": 2.783966064453125,
-      "davies_bouldin": 1.1499888763473545,
+      "silhouette": 0.19761954247951508,
+      "calinski_harabasz": 84.94219970703125,
+      "davies_bouldin": 1.2971116354805958,
       "modularity": null,
       "params": {
         "linkage": "average",
@@ -573,9 +573,9 @@
       "method": "hierarchical_average",
       "feature_type": "joint",
       "n_clusters": 20,
-      "silhouette": 0.09421791136264801,
-      "calinski_harabasz": 2.5624938011169434,
-      "davies_bouldin": 1.1488263088156445,
+      "silhouette": 0.131393700838089,
+      "calinski_harabasz": 58.246009826660156,
+      "davies_bouldin": 1.274128326393271,
       "modularity": null,
       "params": {
         "linkage": "average",
@@ -586,9 +586,9 @@
       "method": "hierarchical_average",
       "feature_type": "joint",
       "n_clusters": 30,
-      "silhouette": 0.06771903485059738,
-      "calinski_harabasz": 2.3692188262939453,
-      "davies_bouldin": 1.0052845701771727,
+      "silhouette": 0.13414527475833893,
+      "calinski_harabasz": 51.79722595214844,
+      "davies_bouldin": 1.3665768291118754,
       "modularity": null,
       "params": {
         "linkage": "average",
@@ -599,9 +599,9 @@
       "method": "hierarchical_average",
       "feature_type": "joint",
       "n_clusters": 50,
-      "silhouette": 0.03870413824915886,
-      "calinski_harabasz": 2.628787040710449,
-      "davies_bouldin": 1.2507620861200985,
+      "silhouette": 0.1147703230381012,
+      "calinski_harabasz": 37.9676513671875,
+      "davies_bouldin": 1.291752757119111,
       "modularity": null,
       "params": {
         "linkage": "average",
@@ -612,9 +612,9 @@
       "method": "kmeans",
       "feature_type": "joint",
       "n_clusters": 10,
-      "silhouette": 0.017264757305383682,
-      "calinski_harabasz": 16.93145179748535,
-      "davies_bouldin": 4.164929087563793,
+      "silhouette": 0.1618528664112091,
+      "calinski_harabasz": 139.61978149414062,
+      "davies_bouldin": 1.6669808919857527,
       "modularity": null,
       "params": {
         "k": 10
@@ -624,9 +624,9 @@
       "method": "kmeans",
       "feature_type": "joint",
       "n_clusters": 20,
-      "silhouette": 0.008297877386212349,
-      "calinski_harabasz": 10.337831497192383,
-      "davies_bouldin": 4.063967094182593,
+      "silhouette": 0.12976378202438354,
+      "calinski_harabasz": 95.51940155029297,
+      "davies_bouldin": 1.7562395187010733,
       "modularity": null,
       "params": {
         "k": 20
@@ -636,9 +636,9 @@
       "method": "kmeans",
       "feature_type": "joint",
       "n_clusters": 30,
-      "silhouette": 0.0015716940397396684,
-      "calinski_harabasz": 7.885761737823486,
-      "davies_bouldin": 3.650045362678917,
+      "silhouette": 0.13136863708496094,
+      "calinski_harabasz": 76.37757110595703,
+      "davies_bouldin": 1.763455353133335,
       "modularity": null,
       "params": {
         "k": 30
@@ -648,9 +648,9 @@
       "method": "kmeans",
       "feature_type": "joint",
       "n_clusters": 50,
-      "silhouette": 0.007809767499566078,
-      "calinski_harabasz": 5.770318508148193,
-      "davies_bouldin": 3.2525905824006016,
+      "silhouette": 0.12424938380718231,
+      "calinski_harabasz": 56.43083572387695,
+      "davies_bouldin": 1.641725100918193,
       "modularity": null,
       "params": {
         "k": 50
@@ -659,11 +659,11 @@
     {
       "method": "louvain",
       "feature_type": "joint",
-      "n_clusters": 41,
-      "silhouette": -0.04145645350217819,
-      "calinski_harabasz": 4.488312244415283,
-      "davies_bouldin": 2.6690089348138986,
-      "modularity": 0.2740219533443451,
+      "n_clusters": 25,
+      "silhouette": 0.08173143863677979,
+      "calinski_harabasz": 74.46385955810547,
+      "davies_bouldin": 1.677316755886102,
+      "modularity": 0.5888638496398926,
       "params": {
         "resolution": 0.5,
         "k_neighbors": 15
@@ -672,11 +672,11 @@
     {
       "method": "louvain",
       "feature_type": "joint",
-      "n_clusters": 7,
-      "silhouette": 0.02229548804461956,
-      "calinski_harabasz": 17.86557388305664,
-      "davies_bouldin": 4.221732148581095,
-      "modularity": 0.3978160619735718,
+      "n_clusters": 8,
+      "silhouette": 0.11602097749710083,
+      "calinski_harabasz": 120.35107421875,
+      "davies_bouldin": 1.9435307038476894,
+      "modularity": 0.6406210660934448,
       "params": {
         "resolution": 1.0,
         "k_neighbors": 15
@@ -685,11 +685,11 @@
     {
       "method": "louvain",
       "feature_type": "joint",
-      "n_clusters": 13,
-      "silhouette": 0.008790788240730762,
-      "calinski_harabasz": 11.730588912963867,
-      "davies_bouldin": 4.297673213198026,
-      "modularity": 0.3690077066421509,
+      "n_clusters": 14,
+      "silhouette": 0.08978621661663055,
+      "calinski_harabasz": 91.05245971679688,
+      "davies_bouldin": 1.8268593304811844,
+      "modularity": 0.6233164072036743,
       "params": {
         "resolution": 1.5,
         "k_neighbors": 15
@@ -698,11 +698,11 @@
     {
       "method": "louvain",
       "feature_type": "joint",
-      "n_clusters": 16,
-      "silhouette": 0.011031920090317726,
-      "calinski_harabasz": 10.277884483337402,
-      "davies_bouldin": 4.351171568016023,
-      "modularity": 0.3495701253414154,
+      "n_clusters": 18,
+      "silhouette": 0.12157177925109863,
+      "calinski_harabasz": 94.0531234741211,
+      "davies_bouldin": 1.7197631339120798,
+      "modularity": 0.616983950138092,
       "params": {
         "resolution": 2.0,
         "k_neighbors": 15
@@ -711,10 +711,10 @@
     {
       "method": "chinese_whispers",
       "feature_type": "joint",
-      "n_clusters": 1,
-      "silhouette": null,
-      "calinski_harabasz": null,
-      "davies_bouldin": null,
+      "n_clusters": 16,
+      "silhouette": 0.11332916468381882,
+      "calinski_harabasz": 92.40750885009766,
+      "davies_bouldin": 1.5936865800347033,
       "modularity": null,
       "params": {
         "k_neighbors": 15
@@ -724,21 +724,33 @@
       "method": "hdbscan",
       "feature_type": "joint",
       "n_clusters": 2,
-      "silhouette": 0.04652600735425949,
-      "calinski_harabasz": 1.7676756381988525,
-      "davies_bouldin": 2.701318673332184,
+      "silhouette": 0.26830482482910156,
+      "calinski_harabasz": 12.649807929992676,
+      "davies_bouldin": 1.0763162618263844,
       "modularity": null,
       "params": {
         "min_cluster_size": 5
       }
     },
     {
+      "method": "hdbscan",
+      "feature_type": "joint",
+      "n_clusters": 4,
+      "silhouette": 0.46733149886131287,
+      "calinski_harabasz": 131.80416870117188,
+      "davies_bouldin": 1.0245147370877925,
+      "modularity": null,
+      "params": {
+        "min_cluster_size": 10
+      }
+    },
+    {
       "method": "spectral",
       "feature_type": "joint",
       "n_clusters": 10,
-      "silhouette": 0.02418968454003334,
-      "calinski_harabasz": 14.421492576599121,
-      "davies_bouldin": 3.971916779436661,
+      "silhouette": 0.07188130915164948,
+      "calinski_harabasz": 103.28887939453125,
+      "davies_bouldin": 1.4181038921534088,
       "modularity": null,
       "params": {
         "k": 10
@@ -748,9 +760,9 @@
       "method": "spectral",
       "feature_type": "joint",
       "n_clusters": 20,
-      "silhouette": 0.004604140762239695,
-      "calinski_harabasz": 9.138535499572754,
-      "davies_bouldin": 3.9149714454767426,
+      "silhouette": 0.0917242020368576,
+      "calinski_harabasz": 83.19461822509766,
+      "davies_bouldin": 1.6730773438938311,
       "modularity": null,
       "params": {
         "k": 20
@@ -784,16 +796,15 @@
       }
     },
     "joint": {
-      "method": "hierarchical_average",
+      "method": "hdbscan",
       "feature_type": "joint",
-      "n_clusters": 10,
-      "silhouette": 0.13830360770225525,
-      "calinski_harabasz": 2.783966064453125,
-      "davies_bouldin": 1.1499888763473545,
+      "n_clusters": 4,
+      "silhouette": 0.46733149886131287,
+      "calinski_harabasz": 131.80416870117188,
+      "davies_bouldin": 1.0245147370877925,
       "modularity": null,
       "params": {
-        "linkage": "average",
-        "k": 10
+        "min_cluster_size": 10
       }
     }
   },

@@ -1,0 +1,55 @@
+{
+  "verbnet_coverage": 0.8043478260869565,
+  "matched_lemmas": 740,
+  "total_lemmas": 920,
+  "results_by_k": [
+    {
+      "k": 10,
+      "coverage": 0.8043478260869565,
+      "matched_count": 740,
+      "v_measure": 0.28950773354302795,
+      "homogeneity": 0.20590360623480777,
+      "completeness": 0.4874157019520715,
+      "ari": 0.009577132275313057,
+      "nmi": 0.28950773354302795,
+      "n_clusters_pred": 10,
+      "n_clusters_true": 187
+    },
+    {
+      "k": 20,
+      "coverage": 0.8043478260869565,
+      "matched_count": 740,
+      "v_measure": 0.38982050613999425,
+      "homogeneity": 0.3101631912980626,
+      "completeness": 0.524533144563095,
+      "ari": 0.0128601843270584,
+      "nmi": 0.38982050613999425,
+      "n_clusters_pred": 20,
+      "n_clusters_true": 187
+    },
+    {
+      "k": 30,
+      "coverage": 0.8043478260869565,
+      "matched_count": 740,
+      "v_measure": 0.4424502690334409,
+      "homogeneity": 0.36906327900668384,
+      "completeness": 0.5522666279742062,
+      "ari": 0.013309300389580494,
+      "nmi": 0.4424502690334408,
+      "n_clusters_pred": 30,
+      "n_clusters_true": 187
+    },
+    {
+      "k": 50,
+      "coverage": 0.8043478260869565,
+      "matched_count": 740,
+      "v_measure": 0.5122419175178476,
+      "homogeneity": 0.45443655192529475,
+      "completeness": 0.5868964891558652,
+      "ari": 0.01625604345849499,
+      "nmi": 0.5122419175178476,
+      "n_clusters_pred": 50,
+      "n_clusters_true": 187
+    }
+  ]
+}
