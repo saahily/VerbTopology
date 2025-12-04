@@ -279,7 +279,7 @@ def build_joint_features(
     syntactic_features: np.ndarray,
     embedding_lemmas: list[str],
     syntactic_lemmas: list[str],
-    alpha: float = 0.7,
+    alpha: float = 0.95,  # Updated: heavily weight embeddings for semantic clustering
 ) -> tuple[np.ndarray, list[str]]:
     """
     Build joint feature matrix combining embeddings and syntactic features.

@@ -19,15 +19,6 @@ Working with [Universal Dependencies](https://universaldependencies.org/introduc
 - **Vedic Sanskrit** - has 40,000 sentences from various segments of the Vedic corpus (i.e. Ṛgveda, Śaunaka recension of the Atharvaveda, Maitrāyaṇīsaṃhitā from Yajurveda, and the Aitareya and Śatapatha Brāhmaṇas)
 - **Sanskrit** (UFAL) - classical period, much smaller corpus sadly, from the Pancatantra
 
-## Current status
-
-**done:** verb extraction, syntactic feature engineering (phases 1-3)
-
-### What works
-- conllu parsing (the `conllu` library is great btw)
-- verb instance extraction with all their arguments
-- feature engineering for syntactic frames
-
 ## Pipeline
 1. **parse treebanks** → grab every verb and what arguments it takes (subject? object? oblique with "to"?)
 2. **build features** → each verb lemma becomes a vector based on its syntactic behavior across all instances
@@ -35,12 +26,6 @@ Working with [Universal Dependencies](https://universaldependencies.org/introduc
 4. **cluster** → use various clustering algorithms (e.g. hierarchical, louvain, etc) and see what groups emerge
 5. **evaluate** → compare english clusters against VerbNet classes
 6. **compare cross-linguistically** → do similar clusters show up across english/telugu/vedic/sanskrit? (what I'm especially interested in)
-
-### What's next
-- contextual embeddings via XLM-R (need gpu time...)
-- clustering comparison (hierarchical, graph-based, etc)
-- verbnet alignment for english
-- cross-linguistic analysis
 
 ## Running it
 

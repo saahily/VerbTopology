@@ -1,0 +1,12 @@
+{
+  "experiments": [
+    {
+      "name": "syntactic_only",
+      "alpha": 0.0,
+      "k": 30,
+      "method": "hierarchical_ward",
+      "silhouette": 0.11060134321451187,
+      "calinski_harabasz": 74.5344009399414,
+      "davies_bouldin": 1.762626700625798,
+      "prototypes": {
+        
