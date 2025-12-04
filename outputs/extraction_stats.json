@@ -1,0 +1,430 @@
+{
+  "english": {
+    "language": "english",
+    "total_sentences": 16622,
+    "total_verb_instances": 27888,
+    "unique_verb_lemmas": 2012,
+    "instances_with_subject": 16098,
+    "instances_with_object": 12623,
+    "instances_with_oblique": 8717,
+    "instances_with_clausal": 5841,
+    "transitivity_distribution": {
+      "ditransitive": 795,
+      "impersonal": 6158,
+      "intransitive": 9107,
+      "transitive": 11828
+    },
+    "deprel_distribution": {
+      "ccomp": 2283,
+      "csubj": 110,
+      "iobj": 795,
+      "nsubj": 16209,
+      "obj": 12224,
+      "obl": 10214,
+      "xcomp": 3571
+    },
+    "top_verbs": [
+      [
+        "have",
+        1662
+      ],
+      [
+        "go",
+        760
+      ],
+      [
+        "get",
+        740
+      ],
+      [
+        "do",
+        619
+      ],
+      [
+        "know",
+        551
+      ],
+      [
+        "say",
+        544
+      ],
+      [
+        "make",
+        509
+      ],
+      [
+        "take",
+        484
+      ],
+      [
+        "be",
+        463
+      ],
+      [
+        "want",
+        412
+      ],
+      [
+        "see",
+        371
+      ],
+      [
+        "use",
+        348
+      ],
+      [
+        "need",
+        329
+      ],
+      [
+        "think",
+        323
+      ],
+      [
+        "come",
+        322
+      ],
+      [
+        "give",
+        320
+      ],
+      [
+        "look",
+        300
+      ],
+      [
+        "work",
+        276
+      ],
+      [
+        "find",
+        275
+      ],
+      [
+        "call",
+        273
+      ]
+    ]
+  },
+  "telugu": {
+    "language": "telugu",
+    "total_sentences": 1328,
+    "total_verb_instances": 1462,
+    "unique_verb_lemmas": 857,
+    "instances_with_subject": 886,
+    "instances_with_object": 475,
+    "instances_with_oblique": 374,
+    "instances_with_clausal": 87,
+    "transitivity_distribution": {
+      "ditransitive": 37,
+      "impersonal": 382,
+      "intransitive": 605,
+      "transitive": 438
+    },
+    "deprel_distribution": {
+      "ccomp": 83,
+      "csubj": 20,
+      "iobj": 38,
+      "nsubj": 906,
+      "obj": 474,
+      "obl": 410,
+      "xcomp": 6
+    },
+    "top_verbs": [
+      [
+        "lēdu",
+        46
+      ],
+      [
+        "uṁdi",
+        29
+      ],
+      [
+        "veḷḷēḍu",
+        23
+      ],
+      [
+        "kādu",
+        18
+      ],
+      [
+        "unnadi",
+        16
+      ],
+      [
+        "telusu",
+        16
+      ],
+      [
+        "vaccēru",
+        14
+      ],
+      [
+        "unnāḍu",
+        13
+      ],
+      [
+        "vaccēḍu",
+        13
+      ],
+      [
+        "veḷḷiṁdi",
+        11
+      ],
+      [
+        "unnāyi",
+        11
+      ],
+      [
+        "ceyyāli",
+        10
+      ],
+      [
+        "ayiṁdi",
+        10
+      ],
+      [
+        "teliyadu",
+        10
+      ],
+      [
+        "rā",
+        9
+      ],
+      [
+        "rāvaṭaṁ",
+        9
+      ],
+      [
+        "vacciṁdi",
+        8
+      ],
+      [
+        "ceppaṁḍi",
+        8
+      ],
+      [
+        "veḷḷēnu",
+        8
+      ],
+      [
+        "veḷḷēru",
+        8
+      ]
+    ]
+  },
+  "vedic": {
+    "language": "vedic",
+    "total_sentences": 27182,
+    "total_verb_instances": 39836,
+    "unique_verb_lemmas": 2973,
+    "instances_with_subject": 11858,
+    "instances_with_object": 15478,
+    "instances_with_oblique": 12971,
+    "instances_with_clausal": 3509,
+    "transitivity_distribution": {
+      "ditransitive": 2402,
+      "impersonal": 16935,
+      "intransitive": 7423,
+      "transitive": 13076
+    },
+    "deprel_distribution": {
+      "ccomp": 2273,
+      "csubj": 388,
+      "iobj": 2403,
+      "nsubj": 11470,
+      "obj": 14305,
+      "obl": 14725,
+      "xcomp": 1279
+    },
+    "top_verbs": [
+      [
+        "kṛ",
+        1415
+      ],
+      [
+        "bhū",
+        1328
+      ],
+      [
+        "vid",
+        997
+      ],
+      [
+        "hu",
+        976
+      ],
+      [
+        "as",
+        789
+      ],
+      [
+        "yaj",
+        703
+      ],
+      [
+        "ah",
+        637
+      ],
+      [
+        "vac",
+        625
+      ],
+      [
+        "dhā",
+        571
+      ],
+      [
+        "i",
+        476
+      ],
+      [
+        "jan",
+        475
+      ],
+      [
+        "gam",
+        414
+      ],
+      [
+        "brū",
+        394
+      ],
+      [
+        "dā",
+        313
+      ],
+      [
+        "grah",
+        289
+      ],
+      [
+        "sthā",
+        277
+      ],
+      [
+        "pā",
+        266
+      ],
+      [
+        "sṛj",
+        265
+      ],
+      [
+        "ālabh",
+        226
+      ],
+      [
+        "car",
+        219
+      ]
+    ]
+  },
+  "sanskrit": {
+    "language": "sanskrit",
+    "total_sentences": 230,
+    "total_verb_instances": 314,
+    "unique_verb_lemmas": 155,
+    "instances_with_subject": 168,
+    "instances_with_object": 100,
+    "instances_with_oblique": 104,
+    "instances_with_clausal": 21,
+    "transitivity_distribution": {
+      "ditransitive": 8,
+      "impersonal": 92,
+      "intransitive": 122,
+      "transitive": 92
+    },
+    "deprel_distribution": {
+      "ccomp": 4,
+      "csubj": 7,
+      "iobj": 8,
+      "nsubj": 166,
+      "obj": 95,
+      "obl": 129,
+      "xcomp": 17
+    },
+    "top_verbs": [
+      [
+        "कृ",
+        25
+      ],
+      [
+        "वच्",
+        16
+      ],
+      [
+        "ब्रू",
+        15
+      ],
+      [
+        "भू",
+        14
+      ],
+      [
+        "गम्",
+        12
+      ],
+      [
+        "श्रु",
+        9
+      ],
+      [
+        "अह्",
+        9
+      ],
+      [
+        "स्था",
+        6
+      ],
+      [
+        "ज्ञा",
+        5
+      ],
+      [
+        "अस्",
+        5
+      ],
+      [
+        "जन्",
+        4
+      ],
+      [
+        "ग्रह्",
+        4
+      ],
+      [
+        "आ-गम्",
+        4
+      ],
+      [
+        "मृ",
+        3
+      ],
+      [
+        "दा",
+        3
+      ],
+      [
+        "प्र-वच्",
+        3
+      ],
+      [
+        "वि-धा",
+        3
+      ],
+      [
+        "वृध्",
+        3
+      ],
+      [
+        "लभ्",
+        3
+      ],
+      [
+        "रक्ष्",
+        3
+      ]
+    ]
+  }
+}

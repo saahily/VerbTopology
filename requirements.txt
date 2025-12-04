@@ -1,0 +1,24 @@
+# VerbTopology: Verb Semantic Class Induction
+# Core dependencies for CoNLL-U parsing and analysis
+
+# Data parsing
+conllu>=4.5.3
+
+# Numerical computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Machine learning / clustering
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: for t-SNE/UMAP visualizations
+# umap-learn>=0.5.0
+
+# Optional: for embeddings (if needed later)
+# gensim>=4.3.0
+

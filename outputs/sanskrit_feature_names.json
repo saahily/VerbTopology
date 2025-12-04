@@ -1,0 +1,57 @@
+{
+  "feature_names": [
+    "has_nsubj",
+    "has_nsubj_pass",
+    "has_csubj",
+    "has_obj",
+    "has_iobj",
+    "has_obl",
+    "has_xcomp",
+    "has_ccomp",
+    "obl_case_Abl",
+    "obl_case_Acc",
+    "obl_case_Gen",
+    "obl_case_Ins",
+    "obl_case_Loc",
+    "obl_case_Nom",
+    "trans_intransitive",
+    "trans_transitive",
+    "trans_ditransitive",
+    "trans_impersonal",
+    "voice_Act",
+    "voice_Pass",
+    "voice_Mid"
+  ],
+  "num_features": 21,
+  "groups": {
+    "core_arg": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "oblique": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "transitivity": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "voice": [
+      18,
+      19,
+      20
+    ]
+  }
+}
