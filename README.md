@@ -21,7 +21,7 @@ Working with [Universal Dependencies](https://universaldependencies.org/introduc
 
 ## Current status
 
-phases 1-3 done. extracted verbs from all treebanks, built syntactic feature vectors. next up is the actual clustering (finally).
+**done:** verb extraction, syntactic feature engineering (phases 1-3)
 
 ### What works
 - conllu parsing (the `conllu` library is great btw)
