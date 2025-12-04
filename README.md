@@ -42,7 +42,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-the scripts in `src/` can be run directly. check IMPLEMENTATION_PLAN.md for details on the full pipeline.
+the scripts in `src/` can be run directly.
 
 ## Directory structure
 
@@ -62,8 +62,8 @@ outputs/          - extracted features, cluster assignments, etc
 ## References
 
 - Universal Dependencies: https://universaldependencies.org/
-- Yamada et al 2021 has good stuff on contextual embeddings for verb clustering
-- VerbNet for evaluation
+- [Yamada et al 2021](https://aclanthology.org/2021.findings-acl.381.pdf?utm_source=consensus) has good stuff on contextual embeddings for verb clustering
+- [VerbNet](https://verbs.colorado.edu/verbnet/) for evaluation, plus looking at natural dhātu verb classes in traditional Sanskrit grammatical tradition ??
 
 ---
 
