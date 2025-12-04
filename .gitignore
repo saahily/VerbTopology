@@ -44,8 +44,6 @@ ENV/
 Thumbs.db
 
 # Project specific
-outputs/*.npz
-outputs/*.jsonl
 outputs/figures/
 outputs/tables/
 
@@ -54,7 +52,4 @@ outputs/tables/
 *.bin
 *.safetensors
 models/
-
-# Don't commit the raw UD data (it's big and can be downloaded)
-# data/raw/
 

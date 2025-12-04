@@ -4,7 +4,7 @@ This repo is my effort to try to figure out how verbs organize themselves semant
 
 ## What is this
 
-The basic idea: can we take a bunch of verb instances from text corpora and cluster them into meaningful semantic classes *without* any labels (minus the UD ones)? and different languages (english, telugu, vedic sanskrit, classical sanskrit) end up with similar verb categories?
+The basic idea: can we take a bunch of verb instances from text corpora and cluster them into meaningful semantic classes *without* any labels (minus the UD ones)? and would different languages (english, telugu, vedic sanskrit, classical sanskrit) end up with similar verb clusters?
 
 This matters because:
 - linguists have argued for decades about whether verb classes are universal or language-specific (spoiler: probably both?)
@@ -27,6 +27,14 @@ Working with [Universal Dependencies](https://universaldependencies.org/introduc
 - conllu parsing (the `conllu` library is great btw)
 - verb instance extraction with all their arguments
 - feature engineering for syntactic frames
+
+## Pipeline
+1. **parse treebanks** → grab every verb and what arguments it takes (subject? object? oblique with "to"?)
+2. **build features** → each verb lemma becomes a vector based on its syntactic behavior across all instances
+3. **get embeddings** → also extract XLM-R contextual embeddings for the semantic side
+4. **cluster** → use various clustering algorithms (e.g. hierarchical, louvain, etc) and see what groups emerge
+5. **evaluate** → compare english clusters against VerbNet classes
+6. **compare cross-linguistically** → do similar clusters show up across english/telugu/vedic/sanskrit? (what I'm especially interested in)
 
 ### What's next
 - contextual embeddings via XLM-R (need gpu time...)

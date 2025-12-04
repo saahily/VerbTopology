@@ -1,0 +1,118 @@
+{
+  "english": {
+    "language": "english",
+    "total_instances": 27888,
+    "instance_embedding_shape": [
+      27888,
+      768
+    ],
+    "lemma_embedding_shape": [
+      920,
+      768
+    ],
+    "num_lemmas": 920,
+    "embedding_dim": 768,
+    "model": "xlm-roberta-base",
+    "top_lemmas": [
+      "have",
+      "go",
+      "get",
+      "do",
+      "know",
+      "say",
+      "make",
+      "take",
+      "be",
+      "want"
+    ],
+    "joint_feature_dim": 813,
+    "joint_lemmas": 920
+  },
+  "sanskrit": {
+    "language": "sanskrit",
+    "total_instances": 314,
+    "instance_embedding_shape": [
+      314,
+      768
+    ],
+    "lemma_embedding_shape": [
+      24,
+      768
+    ],
+    "num_lemmas": 24,
+    "embedding_dim": 768,
+    "model": "xlm-roberta-base",
+    "top_lemmas": [
+      "कृ",
+      "वच्",
+      "ब्रू",
+      "भू",
+      "गम्",
+      "श्रु",
+      "अह्",
+      "स्था",
+      "ज्ञा",
+      "अस्"
+    ],
+    "joint_feature_dim": 789,
+    "joint_lemmas": 24
+  },
+  "telugu": {
+    "language": "telugu",
+    "total_instances": 1462,
+    "instance_embedding_shape": [
+      1462,
+      768
+    ],
+    "lemma_embedding_shape": [
+      97,
+      768
+    ],
+    "num_lemmas": 97,
+    "embedding_dim": 768,
+    "model": "xlm-roberta-base",
+    "top_lemmas": [
+      "lēdu",
+      "uṁdi",
+      "veḷḷēḍu",
+      "kādu",
+      "unnadi",
+      "telusu",
+      "vaccēru",
+      "unnāḍu",
+      "vaccēḍu",
+      "veḷḷiṁdi"
+    ],
+    "joint_feature_dim": 782,
+    "joint_lemmas": 97
+  },
+  "vedic": {
+    "language": "vedic",
+    "total_instances": 39836,
+    "instance_embedding_shape": [
+      39836,
+      768
+    ],
+    "lemma_embedding_shape": [
+      1421,
+      768
+    ],
+    "num_lemmas": 1421,
+    "embedding_dim": 768,
+    "model": "xlm-roberta-base",
+    "top_lemmas": [
+      "kṛ",
+      "bhū",
+      "vid",
+      "hu",
+      "as",
+      "yaj",
+      "ah",
+      "vac",
+      "dhā",
+      "i"
+    ],
+    "joint_feature_dim": 813,
+    "joint_lemmas": 1421
+  }
+}
